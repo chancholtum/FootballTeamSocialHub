@@ -1,0 +1,20 @@
+.SideBarFriends {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.SideBarFriends:hover {
+  background: #d3d0d0;
+  box-shadow: 10px 10px 10px -10px rgba(152, 148, 148, 0.3),
+    inset 10px 10px 10px -10px rgba(108, 105, 105, 0.4);
+}
+
+.SideBarFriendImg {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}

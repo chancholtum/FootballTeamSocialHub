@@ -1,0 +1,40 @@
+.ChatContainer {
+  display: flex;
+}
+
+.SidebarContainer {
+  overflow: scroll;
+  padding: 20px;
+  height: 100vh;
+}
+
+.SidebarContainer::-webkit-scrollbar {
+  width: 5px;
+}
+
+.SidebarContainer::-webkit-scrollbar-thumb {
+  background: rgb(178, 178, 178);
+}
+
+.SidebarContainer::-webkit-scrollbar-track {
+  background: #f9f2f2;
+}
+
+.ChatBox {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.Icon {
+  font-size: 500px;
+  color: #333;
+}
+
+.ChatText {
+  font-size: 30px;
+}

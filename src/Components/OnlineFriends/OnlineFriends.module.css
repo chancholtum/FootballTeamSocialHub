@@ -1,0 +1,39 @@
+.RightBarFriends {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  /* box-shadow: var(--boxShadow); */
+  padding: 10px;
+}
+
+.RightBarFriends:hover {
+  cursor: pointer;
+  box-shadow: var(--boxShadow);
+  background: #d3d0d0;
+  border-radius: 10px;
+}
+
+.RightProfileImgContainer {
+  position: relative;
+  margin-right: 9px;
+}
+
+.RightBarImgurl {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.RightrBarOnlineGreen {
+  position: absolute;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background: green;
+  top: -2px;
+  right: 0;
+  border: 2px solid #ccc;
+}
+
+.rightBarUsername {
+  font-weight: 700;
+}
